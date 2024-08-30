@@ -18,6 +18,7 @@ git status
 
 
 # 创建GitHub仓库后，添加GitHub仓库到本地
+git branch -M main
 git remote add k8s git@github.com:telnetwork/k8s.git  # add后面的 k8s 名称可以自定义
 git remote
 
